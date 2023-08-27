@@ -90,6 +90,7 @@ header{
   cursor: pointer;
   letter-spacing: 2px;
   margin-left: 10px;
+  color: black;
 }
 
 .hero-nav button:hover{
