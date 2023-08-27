@@ -96,6 +96,17 @@ header{
   background: #81923b;
 }
 
+.scroll-down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7rem;
+}
+
+.scroll-down a img{
+  scale: 5;
+}
+
 .aktuelles{
   max-width: 50%;
   padding-top: 1.725rem;
@@ -121,9 +132,23 @@ header{
   text-decoration: underline;
 }
 
+.map iframe{
+  border: 0;
+  width: 600px;
+  height: 450px;
+}
+
 .ueber-uns{
   max-width: 50%;
   padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+.img-team{
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-team img{
@@ -132,7 +157,7 @@ header{
 
 .footer{
   padding: 3rem;
-  background-color: red;
+  background-color: #A7CFDD;
   font-size: 1rem;
 }
 
@@ -140,24 +165,127 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: start;
+  align-content: center;
 }
 
-.mail{
+.footer-item{
   display: flex;
   align-items: center;
+  margin: .3rem 0;
+  font-size: 1rem;
 }
 
-.instagram{
-  display: flex;
-  align-items: center;
-}
-
-.phone{
-  display: flex;
-  align-items: center;
+.footer-item img{
+  padding-right: .5rem;
+  scale: 1.1;
 }
 
 .footer h3{
   font-size: 1.5rem;
-  padding: 0;
+  padding-bottom: .725rem;
+}
+
+@media (max-width: 1024px) {
+  .map iframe{
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1{
+    font-weight: 700;
+    font-size: 2.125rem;
+    letter-spacing: 2px;
+  }
+  
+  h2{
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+  
+  h3{
+    font-size: 1rem;
+    padding-top: 2rem;
+  }
+  
+  p{
+    font-size: .75rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 8px 0
+  }
+
+  .quote{
+    font-size: 1.25rem;
+  }
+
+  .map iframe{
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+  }
+  
+  .hero-nav button{
+    font-size: 12px;
+    border-radius: 6px;
+    background: #748337;
+    padding: 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+
+  .scroll-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  .footer{
+    padding: 1rem;
+    background-color: #A7CFDD;
+    font-size: 1rem;
+  }
+
+  .footer-item{
+    display: flex;
+    align-items: center;
+    margin: .1rem 0;
+    font-size: .75rem;
+  }
+  
+  .footer-item img{
+    padding-right: .5rem;
+    scale: .9;
+  }
+  
+  .footer h3{
+    font-size: 1rem;
+    padding-bottom: .125rem;
+  }
+
+  .aktuelles{
+    max-width: 70%;
+    padding-top: 1.725rem;
+  }
+  .angebot{
+    max-width: 70%;
+    padding-top: 3rem;
+  }
+  .ueber-uns{
+    max-width: 70%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
 }
