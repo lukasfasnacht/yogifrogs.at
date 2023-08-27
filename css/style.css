@@ -288,4 +288,10 @@ header{
     padding-bottom: 5rem;
   }
 
+  header{
+    width: 100vw;
+    height: 900px;
+    background-color: #A7CFDD;
+  }
+
 }
