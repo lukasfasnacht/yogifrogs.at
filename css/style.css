@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #F1EFE8;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 3.125rem;
+  letter-spacing: 2px;
+}
+
+h2{
+  font-weight: 100;
+}
+
+h3{
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+p{
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 8px 0
+}
+
+button{
+  border: none;
+  background: none;
+  text-decoration: none;
+}
+
+header{
+  width: 100vw;
+  height: 100vh;
+  background-color: #A7CFDD;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img{
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding-top: 2rem;
+}
+
+.logo{
+  max-height:60vh;
+  align-self: center;
+}
+
+.typing{
+  max-height:10vh;
+  align-self: center;
+}
+
+.hero-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.hero-nav button{
+  font-size: 16px;
+  border-radius: 6px;
+  background: #748337;
+  padding: 20px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+
+.hero-nav button:hover{
+  background: #81923b;
+}
+
+.aktuelles{
+  max-width: 50%;
+  padding-top: 1.725rem;
+}
+
+.quote{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-family: Roboto Slab;
+  font-size: 1.5rem;
+}
+
+.angebot{
+  max-width: 50%;
+  padding-top: 3rem;
+}
+
+.download{
+  font-weight: 700;
+}
+
+.download:hover{
+  text-decoration: underline;
+}
+
+.ueber-uns{
+  max-width: 50%;
+  padding-top: 3rem;
+}
+
+.img-team img{
+  max-width: 40%;
+}
+
+.footer{
+  padding: 3rem;
+  background-color: red;
+  font-size: 1rem;
+}
+
+.flex-start{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.mail{
+  display: flex;
+  align-items: center;
+}
+
+.instagram{
+  display: flex;
+  align-items: center;
+}
+
+.phone{
+  display: flex;
+  align-items: center;
+}
+
+.footer h3{
+  font-size: 1.5rem;
+  padding: 0;
+}
